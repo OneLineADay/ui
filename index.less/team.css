@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+  margin: 14px;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: sans-serif;
+  color: black;
+  background: #f2c94c;
+  height: 100%;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    width: 500px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+  color: black;
+}
+@media (max-width: 500px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-align: center;
+  }
+}
+h2 {
+  font-size: 3.6rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+@media (max-width: 500px) {
+  p {
+    text-align: center;
+  }
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+}
+.navDiv {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: white;
+}
+@media (max-width: 500px) {
+  .navDiv {
+    width: 500px;
+  }
+}
+.navDiv h1 {
+  font-size: 4rem;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.navDiv nav {
+  color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 1.3%;
+}
+@media (max-width: 500px) {
+  .navDiv nav {
+    justify-content: center;
+    flex-flow: column;
+  }
+}
+.navDiv nav div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .navDiv nav div {
+    justify-content: center;
+    flex-flow: row;
+  }
+}
+.navDiv nav a {
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: flex;
+  padding: 1.4rem;
+  color: #bcbcbc;
+  text-decoration: none;
+  align-items: baseline;
+}
+.navDiv nav a:hover {
+  text-shadow: #bcbcbc 1px 0 10px;
+}
+.navContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+#logo {
+  width: 20rem;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+}
+/* 1 Line A Day */
+.page {
+  position: static;
+  width: 342px;
+  height: 48px;
+  left: 167px;
+  top: 263px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 111.7%;
+  /* or 47px */
+  text-align: center;
+  color: #4f4f4f;
+}
+#logoA {
+  padding: 0;
+  margin-bottom: 4%;
+}
+.signIn {
+  font-family: 20px sans-serif;
+  background: whitesmoke;
+  color: gray;
+  height: 4rem;
+  width: 10rem;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  align-items: center;
+}
+.signIn:hover {
+  background: #424242;
+  color: whitesmoke;
+  border: 2px solid white;
+}
+@media (max-width: 500px) {
+  #homeButton {
+    display: none;
+  }
+}
+footer {
+  width: 50%;
+  color: black;
+  background: #f2c94c;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.home {
+  padding-top: 0;
+}
+.home p {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .home {
+    width: 500px;
+    margin-top: 165px;
+  }
+}
+.home .intro h2 {
+  padding: 2rem;
+}
+.home .intro p {
+  padding: 0rem 2rem 2rem 2rem;
+}
+.home .features {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+}
+.home .features h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .home .features {
+    display: none;
+  }
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  margin-bottom: 6rem;
+}
+@media (max-width: 500px) {
+  .row {
+    flex-flow: row wrap;
+  }
+  .intro {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    margin: 3rem;
+  }
+}
+div img {
+  width: 70%;
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  div img {
+    width: 50%;
+    height: 22rem;
+    margin: 2rem 0 2rem 0;
+  }
+}
+div h3 {
+  font-size: 2rem;
+  padding: 0 2rem;
+  display: flex;
+  text-align: center;
+  padding: 0 auto;
+}
+h1 {
+  font-family: sans-serif;
+  color: black;
+  text-shadow: white 1px 0 8px;
+  opacity: 0.72;
+}
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+}
+hr {
+  color: white;
+  background: white;
+  height: 1px;
+}
+.signIn {
+  background: white;
+  color: #424242;
+  height: 4rem;
+  width: 10rem;
+  border: 1px solid #f2c94c;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  align-items: center;
+  font-family: 20px Arial;
+}
+.signIn:hover {
+  background: whitesmoke;
+  color: #f2c94c;
+  border: 2px solid #f2c94c;
+}
+.teammembers {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .teammembers {
+    justify-content: center;
+  }
+}
+.teammembers .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-flow: row;
+  padding-bottom: 8.1rem;
+}
+@media (max-width: 500px) {
+  .teammembers .row {
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 0;
+  }
+}
+.teammembers .proDiv {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column;
+  width: 43%;
+  margin: 3rem, 0;
+}
+@media (max-width: 800px) {
+  .teammembers .proDiv {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    width: 43%;
+    margin: 3rem, 0;
+  }
+}
+@media (max-width: 500px) {
+  .teammembers .proDiv {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+}
+.teammembers .proDiv h3 {
+  font-size: 2rem;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .teammembers .proDiv h3 {
+    padding: 1rem;
+  }
+}
+.teammembers .proDiv h2 {
+  font-size: 3.5rem;
+}
+.teammembers .gitIcon {
+  margin: 0.6rem 0;
+}
+.topBlurb {
+  padding-bottom: 3rem;
+}
+.topBlurb p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.teampic {
+  margin-bottom: 3rem;
+}
+@media (max-width: 800px) {
+  .teampic {
+    margin-bottom: 3rem;
+  }
+}
