@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 14px;
 }
 html {
   font-size: 62.5%;
@@ -27,14 +26,18 @@ h5 {
   color: black;
 }
 @media (max-width: 500px) {
-  h3 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     text-align: center;
   }
 }
 h2 {
   font-size: 3.6rem;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h3 {
   font-size: 2.8rem;
@@ -42,6 +45,8 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  width: 148;
+  text-align: center;
 }
 @media (max-width: 500px) {
   p {
@@ -58,25 +63,23 @@ p {
   }
 }
 .navDiv {
-  width: 1386px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  background: white;
-  border-style: solid;
-  border-color: grey;
-  border-image: initial;
-  margin: 0px 0px 3rem;
 }
 @media (max-width: 500px) {
   .navDiv {
     width: 500px;
   }
 }
-
+.navDiv h1 {
+  font-size: 4rem;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 .navDiv nav {
-  color: whitesmoke;
-  width: 94%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -88,7 +91,12 @@ p {
     flex-flow: column;
   }
 }
-
+.navDiv nav div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
 @media (max-width: 500px) {
   .navDiv nav div {
     justify-content: center;
@@ -100,12 +108,12 @@ p {
   font-size: 1.8rem;
   display: flex;
   padding: 1.4rem;
-  color: #bcbcbc;
+  color: #424242;
   text-decoration: none;
   align-items: baseline;
 }
 .navDiv nav a:hover {
-  text-shadow: #bcbcbc 1px 0 10px;
+  text-shadow: whitesmoke 1px 0 10px;
 }
 .navContainer {
   width: 100%;
@@ -113,11 +121,10 @@ p {
   padding: 0;
   top: 0;
 }
-#logo {
-  width: 20rem;
-  display: flex;
-  align-content: center;
-  justify-items: center;
+.logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* 1 Line A Day */
 .page {
@@ -139,7 +146,23 @@ p {
   padding: 0;
   margin-bottom: 4%;
 }
-
+/* .signIn {
+  font-family: 20px sans-serif;
+  background: whitesmoke;
+  color: gray;
+  height: 4rem;
+  width: 10rem;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  align-items: center;
+} */
 .signIn:hover {
   background: #424242;
   color: whitesmoke;
@@ -151,7 +174,7 @@ p {
   }
 }
 footer {
-  width: 50%;
+  width: 88%;
   color: black;
   background: #f2c94c;
   padding: 20px 0;
@@ -162,24 +185,6 @@ footer {
 }
 .home {
   padding-top: 0;
-}
-.home p {
-  font-size: 2rem;
-  font-size: 2rem;
-  /* width: 1386px; */
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  /* background: white; */
-  border-image: initial;
-  /* margin: 69px 271px 28rem; */
-  font-family: "Work Sans", sans-serif;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background: rgb(255, 233, 164);
 }
 @media (max-width: 500px) {
   .home {
@@ -263,15 +268,16 @@ hr {
   background: white;
   height: 1px;
 }
+@media (max-width: 500px) {
+}
 .signIn {
   background: white;
   color: #424242;
-  height: 7rem;
+  height: 4rem;
   width: 10rem;
-  border: 1px solid #f2c94c;
+  border: 1px solid #424242;
   border-radius: 10px;
   display: flex;
-  text-decoration: none;
   justify-content: center;
   justify-items: center;
   align-content: center;
@@ -356,13 +362,12 @@ hr {
 .topBlurb {
   padding-bottom: 3rem;
 }
-.topBlurb p {
+/* .topBlurb p {
   font-size: 2rem;
   margin-bottom: 3rem;
-}
+} */
 .teampic {
   margin-bottom: 3rem;
-  border-radius: 10px;
 }
 @media (max-width: 800px) {
   .teampic {
@@ -390,7 +395,7 @@ nav {
   text-decoration: none;
 }
 header {
-  padding: 158px 16px;
+  padding: 180px 275px;
   margin: 14px;
   display: -webkit-inline-box;
 }

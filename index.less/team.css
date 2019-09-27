@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 14px;
 }
 html {
   font-size: 62.5%;
@@ -66,7 +65,6 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  background: white;
 }
 @media (max-width: 500px) {
   .navDiv {
@@ -80,8 +78,6 @@ p {
   justify-content: center;
 }
 .navDiv nav {
-  color: whitesmoke;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -110,12 +106,12 @@ p {
   font-size: 1.8rem;
   display: flex;
   padding: 1.4rem;
-  color: #bcbcbc;
+  color: #424242;
   text-decoration: none;
   align-items: baseline;
 }
 .navDiv nav a:hover {
-  text-shadow: #bcbcbc 1px 0 10px;
+  text-shadow: whitesmoke 1px 0 10px;
 }
 .navContainer {
   width: 100%;
@@ -152,7 +148,7 @@ p {
   font-family: 20px sans-serif;
   background: whitesmoke;
   color: gray;
-  height: 7rem;
+  height: 4rem;
   width: 10rem;
   border: 1px solid #424242;
   border-radius: 10px;
