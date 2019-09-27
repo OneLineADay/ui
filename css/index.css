@@ -1,11 +1,6 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
 * {
   box-sizing: border-box;
   margin: 14px;
-  text-decoration: none;
 }
 html {
   font-size: 62.5%;
@@ -410,4 +405,8 @@ header {
 }
 .background {
   margin: 14px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
