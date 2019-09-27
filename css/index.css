@@ -27,11 +27,7 @@ h5 {
   color: black;
 }
 @media (max-width: 500px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h3 {
     text-align: center;
   }
 }
@@ -62,26 +58,25 @@ p {
   }
 }
 .navDiv {
-  width: 1000px;
+  width: 1386px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   background: white;
+  border-style: solid;
+  border-color: grey;
+  border-image: initial;
+  margin: 0px 0px 3rem;
 }
 @media (max-width: 500px) {
   .navDiv {
     width: 500px;
   }
 }
-.navDiv h1 {
-  font-size: 4rem;
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-}
+
 .navDiv nav {
   color: whitesmoke;
-  width: 100%;
+  width: 94%;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -93,12 +88,7 @@ p {
     flex-flow: column;
   }
 }
-.navDiv nav div {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
+
 @media (max-width: 500px) {
   .navDiv nav div {
     justify-content: center;
@@ -149,23 +139,7 @@ p {
   padding: 0;
   margin-bottom: 4%;
 }
-.signIn {
-  font-family: 20px sans-serif;
-  background: whitesmoke;
-  color: gray;
-  height: 4rem;
-  width: 10rem;
-  border: 1px solid #424242;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 10px 0;
-  align-items: center;
-}
+
 .signIn:hover {
   background: #424242;
   color: whitesmoke;
@@ -191,6 +165,21 @@ footer {
 }
 .home p {
   font-size: 2rem;
+  font-size: 2rem;
+  /* width: 1386px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* background: white; */
+  border-image: initial;
+  /* margin: 69px 271px 28rem; */
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 233, 164);
 }
 @media (max-width: 500px) {
   .home {
@@ -277,11 +266,12 @@ hr {
 .signIn {
   background: white;
   color: #424242;
-  height: 4rem;
+  height: 7rem;
   width: 10rem;
   border: 1px solid #f2c94c;
   border-radius: 10px;
   display: flex;
+  text-decoration: none;
   justify-content: center;
   justify-items: center;
   align-content: center;
@@ -372,6 +362,7 @@ hr {
 }
 .teampic {
   margin-bottom: 3rem;
+  border-radius: 10px;
 }
 @media (max-width: 800px) {
   .teampic {

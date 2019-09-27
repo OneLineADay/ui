@@ -7,7 +7,7 @@ html {
 }
 html,
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
   background: #f2c94c;
   height: 100%;
@@ -18,20 +18,9 @@ body {
     width: 500px;
   }
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: sans-serif;
-  color: black;
-}
+
 @media (max-width: 500px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h3 {
     text-align: center;
   }
 }
@@ -123,12 +112,7 @@ p {
   padding: 0;
   top: 0;
 }
-#logo {
-  width: 20rem;
-  display: flex;
-  align-content: center;
-  justify-items: center;
-}
+
 /* 1 Line A Day */
 .page {
   position: static;
@@ -145,10 +129,7 @@ p {
   text-align: center;
   color: #4f4f4f;
 }
-#logoA {
-  padding: 0;
-  margin-bottom: 4%;
-}
+
 .signIn {
   font-family: 20px sans-serif;
   background: whitesmoke;
@@ -189,9 +170,7 @@ footer {
 .home {
   padding-top: 0;
 }
-.home p {
-  font-size: 2rem;
-}
+
 @media (max-width: 500px) {
   .home {
     width: 500px;

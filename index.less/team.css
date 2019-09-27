@@ -38,7 +38,7 @@ h5 {
 h2 {
   font-size: 3.6rem;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h3 {
   font-size: 2.8rem;
@@ -123,11 +123,10 @@ p {
   padding: 0;
   top: 0;
 }
-#logo {
-  width: 20rem;
-  display: flex;
-  align-content: center;
-  justify-items: center;
+.logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* 1 Line A Day */
 .page {
@@ -153,7 +152,7 @@ p {
   font-family: 20px sans-serif;
   background: whitesmoke;
   color: gray;
-  height: 4rem;
+  height: 7rem;
   width: 10rem;
   border: 1px solid #424242;
   border-radius: 10px;
@@ -188,9 +187,6 @@ footer {
 }
 .home {
   padding-top: 0;
-}
-.home p {
-  font-size: 2rem;
 }
 @media (max-width: 500px) {
   .home {
