@@ -45,8 +45,6 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
-  width: 148;
-  text-align: center;
 }
 @media (max-width: 500px) {
   p {
@@ -121,6 +119,11 @@ p {
   padding: 0;
   top: 0;
 }
+@media (max-width: 500px) {
+  .logo {
+    display: none;
+  }
+}
 .logo {
   margin: 0;
   padding: 0;
@@ -146,7 +149,7 @@ p {
   padding: 0;
   margin-bottom: 4%;
 }
-/* .signIn {
+.signIn {
   font-family: 20px sans-serif;
   background: whitesmoke;
   color: gray;
@@ -162,7 +165,7 @@ p {
   font-weight: bold;
   margin: 10px 0;
   align-items: center;
-} */
+}
 .signIn:hover {
   background: #424242;
   color: whitesmoke;
@@ -174,7 +177,7 @@ p {
   }
 }
 footer {
-  width: 88%;
+  width: 50%;
   color: black;
   background: #f2c94c;
   padding: 20px 0;
@@ -268,14 +271,12 @@ hr {
   background: white;
   height: 1px;
 }
-@media (max-width: 500px) {
-}
 .signIn {
   background: white;
   color: #424242;
   height: 4rem;
   width: 10rem;
-  border: 1px solid #424242;
+  border: 1px solid #f2c94c;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -362,10 +363,10 @@ hr {
 .topBlurb {
   padding-bottom: 3rem;
 }
-/* .topBlurb p {
+.topBlurb p {
   font-size: 2rem;
   margin-bottom: 3rem;
-} */
+}
 .teampic {
   margin-bottom: 3rem;
 }
@@ -395,7 +396,7 @@ nav {
   text-decoration: none;
 }
 header {
-  padding: 180px 275px;
+  padding: 158px 16px;
   margin: 14px;
   display: -webkit-inline-box;
 }

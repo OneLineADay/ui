@@ -1,13 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 14px;
 }
 html {
   font-size: 62.5%;
 }
 html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   color: black;
   background: #f2c94c;
   height: 100%;
@@ -18,24 +17,35 @@ body {
     width: 500px;
   }
 }
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+  color: black;
+}
 @media (max-width: 500px) {
-  h3 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     text-align: center;
   }
 }
 h2 {
   font-size: 3.6rem;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h3 {
   font-size: 2.8rem;
 }
-/* p {
+p {
   font-size: 1.6rem;
   line-height: 1.4;
-} */
+}
 @media (max-width: 500px) {
   p {
     text-align: center;
@@ -51,15 +61,15 @@ h3 {
   }
 }
 .navDiv {
-  width: 1380px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  /* background: white; */
 }
 @media (max-width: 500px) {
   .navDiv {
     width: 500px;
+    /* color: wheat; */
   }
 }
 .navDiv h1 {
@@ -67,8 +77,14 @@ h3 {
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  color: #424242;
 }
-
+.navDiv nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 1.3%;
+}
 @media (max-width: 500px) {
   .navDiv nav {
     justify-content: center;
@@ -87,9 +103,17 @@ h3 {
     flex-flow: row;
   }
 }
-
+nav a {
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: flex;
+  padding: 1.4rem;
+  color: #424242;
+  text-decoration: none;
+  align-items: baseline;
+}
 .navDiv nav a:hover {
-  text-shadow: #bcbcbc 1px 0 10px;
+  text-shadow: whitesmoke 1px 0 10px;
 }
 .navContainer {
   width: 100%;
@@ -97,7 +121,11 @@ h3 {
   padding: 0;
   top: 0;
 }
-
+.logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* 1 Line A Day */
 .page {
   position: static;
@@ -114,7 +142,10 @@ h3 {
   text-align: center;
   color: #4f4f4f;
 }
-
+#logoA {
+  padding: 0;
+  margin-bottom: 4%;
+}
 .signIn {
   font-family: 20px sans-serif;
   background: whitesmoke;
@@ -155,7 +186,6 @@ footer {
 .home {
   padding-top: 0;
 }
-
 @media (max-width: 500px) {
   .home {
     width: 500px;
@@ -200,7 +230,7 @@ footer {
   .intro {
     display: flex;
     width: 100%;
-    height: 1px;
+    /* height: 1px; */
     margin: 3rem;
   }
 }
@@ -365,7 +395,7 @@ nav {
 header {
   padding: 158px 16px;
   margin: 14px;
-  /* display: -webkit-inline-box; */
+  display: -webkit-inline-box;
 }
 .background {
   margin: 14px;
